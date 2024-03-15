@@ -11,8 +11,8 @@ $pdf = new MyPDF();
 
 $pdf->SetMargins(35, 10); // 10 units left and right margins
 // Set title and subject
-$pdf->SetTitle('Address Project');
-$pdf->SetSubject('Address Project');
+$pdf->SetTitle('Letter-of-Retirement');
+$pdf->SetSubject('Letter-of-Retirement');
 
 $pdf->AddPage();
 $pdf->SetFont('Arial', 'B', 22);
