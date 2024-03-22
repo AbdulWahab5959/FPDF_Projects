@@ -281,7 +281,7 @@ $pdf->SetFillColor(67,83,106); // Set fill color to red (RGB: 255, 0, 0)
 $pdf->Rect(10, 0, 50, $pdf->GetPageHeight(), 'F'); // Draw a filled rectangle spanning the entire page
 
 // Add random picture inside the second rectangle
-$imagePath = 'profileemail.jpg'; // Path to the image file
+$imagePath = 'images_and_PDF_files\profileemail.jpg'; // Path to the image file
 $imageX = 25; // X position of the image
 $imageY = 15; // Y position of the image
 $imageWidth = 20; // Width of the image (adjust as needed)
